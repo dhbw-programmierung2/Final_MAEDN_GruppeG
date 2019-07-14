@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="691.0" style="-fx-background-color: rgb(95,95,95);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="launcher.LauncherController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="ALWAYS" />
+  </rowConstraints>
+   <children>
+      <TextField fx:id="txtName1" disable="true" promptText="Name eingeben" style="-fx-background-color: white;" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtName2" disable="true" promptText="Name eingeben" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtName3" disable="true" promptText="Name eingeben" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtName4" disable="true" promptText="Name eingeben" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtName5" disable="true" promptText="Name eingeben" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="txtName6" disable="true" promptText="Name eingeben" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </TextField>
+      <ComboBox fx:id="cbColor1" disable="true" onAction="#cbOnActionColor1" prefWidth="150.0" promptText="Farbe" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbColor2" disable="true" onAction="#cbOnActionColor2" prefWidth="150.0" promptText="Farbe" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbColor3" disable="true" prefWidth="150.0" promptText="Farbe" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbColor4" disable="true" prefWidth="150.0" promptText="Farbe" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbColor5" disable="true" prefWidth="150.0" promptText="Farbe" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbColor6" disable="true" prefWidth="150.0" promptText="Farbe" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbRival1" disable="true" prefWidth="150.0" promptText="Gegner" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbRival2" disable="true" prefWidth="150.0" promptText="Gegner" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbRival3" disable="true" prefWidth="150.0" promptText="Gegner" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbRival4" disable="true" prefWidth="150.0" promptText="Gegner" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbRival5" disable="true" prefWidth="150.0" promptText="Gegner" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <ComboBox fx:id="cbRival6" disable="true" prefWidth="150.0" promptText="Gegner" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="5" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </GridPane.margin>
+      </ComboBox>
+      <Button fx:id="btnStartGame" defaultButton="true" disable="true" mnemonicParsing="false" onAction="#buttonOnActionStart" prefHeight="35.0" prefWidth="110.0" style="-fx-background-color: white;" text="Spiel starten" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExitGame" defaultButton="true" mnemonicParsing="false" onAction="#buttonOnActionExit" prefHeight="35.0" prefWidth="110.0" style="-fx-background-color: white;" text="Spiel beenden" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" text="Spieler 1" textFill="WHITE" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label text="Spieler 2" textFill="WHITE" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Spieler 3" textFill="WHITE" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Spieler 4" textFill="WHITE" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label text="Spieler 5" textFill="WHITE" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Spieler 6" textFill="WHITE" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label prefHeight="28.0" prefWidth="299.0" text="Mensch ärgere Dich nicht" textFill="WHITE" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER" text="Anzahl der Spieler" textFill="WHITE" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCheckSelection" alignment="CENTER" mnemonicParsing="false" onAction="#buttonOnActionCheckSelection" prefHeight="35.0" prefWidth="110.0" style="-fx-background-color: white;" text="Auswahl prüfen" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+         </GridPane.margin>
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="rbPlayer2" mnemonicParsing="false" onAction="#rbOnActionPlayer2" text="2 Spieler" textFill="WHITE" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+         </GridPane.margin>
+         <toggleGroup>
+            <ToggleGroup fx:id="rbNumberOfPlayers" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbPlayer3" mnemonicParsing="false" onAction="#rbOnActionPlayer3" text="3 Spieler" textFill="WHITE" toggleGroup="$rbNumberOfPlayers" GridPane.columnIndex="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+         </GridPane.margin>
+      </RadioButton>
+      <RadioButton fx:id="rbPlayer4" mnemonicParsing="false" onAction="#rbOnActionPlayer4" text="4 Spieler" textFill="WHITE" toggleGroup="$rbNumberOfPlayers" GridPane.columnIndex="3" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+         </GridPane.margin>
+      </RadioButton>
+      <RadioButton fx:id="rbPlayer5" mnemonicParsing="false" onAction="#rbOnActionPlayer5" text="5 Spieler" textFill="WHITE" toggleGroup="$rbNumberOfPlayers" GridPane.columnIndex="4" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+         </GridPane.margin>
+      </RadioButton>
+      <RadioButton fx:id="rbPlayer6" mnemonicParsing="false" onAction="#rbOnActionPlayer6" text="6 Spieler" textFill="WHITE" toggleGroup="$rbNumberOfPlayers" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS">
+         <GridPane.margin>
+            <Insets bottom="22.0" left="22.0" right="22.0" top="22.0" />
+         </GridPane.margin>
+      </RadioButton>
+      <Button fx:id="btnRepeatSelection" mnemonicParsing="false" onAction="#buttonOnActionRepeatSelection" prefHeight="35.0" prefWidth="110.0" style="-fx-background-color: White;" text="Auswahl aufheben" GridPane.columnIndex="5" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.vgrow="ALWAYS">
+         <font>
+            <Font size="11.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </GridPane.margin>
+      </Button>
+   </children>
+</GridPane>
+
