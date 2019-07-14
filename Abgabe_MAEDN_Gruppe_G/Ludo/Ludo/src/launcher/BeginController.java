@@ -223,7 +223,7 @@ public class BeginController {
 		List<Integer> maxList = new ArrayList<>();
 		for (Integer value : cubeNumberList) {
 			if (value == max){
-				maxList.add(cubeNumberList.indexOf(value));
+				maxList.add(cubeNumberList.indexOf(value +1 ));
 			}
 		}
 		if (maxList.size() > 1){
